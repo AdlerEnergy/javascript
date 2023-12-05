@@ -18,7 +18,7 @@ button{
     background-color:red;
 }
 
-#word{
+#prog{
     letter-spacing: 15px;
     font-size: 80px;
     text-align: center;
@@ -31,4 +31,15 @@ button{
 img{
     margin: 0 auto;
     display: block;
+}
+
+#ent{
+    font-size: large;
+}
+
+#hello{
+    height: 45px;
+    width: 85px;
+    background-color: coral;
+    color: beige;
 }

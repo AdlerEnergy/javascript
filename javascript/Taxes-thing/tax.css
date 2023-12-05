@@ -1,0 +1,68 @@
+
+
+input{
+
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border: 2px solid grey;
+}
+
+body{
+    background-color: black;
+}
+
+button{
+    background-color:red;
+    height: 35px;
+    width: 80px;
+}
+
+.center{
+    text-align: center;
+}
+
+h1
+{
+    margin: 15px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  /* Styles for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Styles for table cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    
+  }
+  
+  /* Optional: Add styles for table header cells */
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* Optional: Add styles for alternating row colors */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .hello
+  {
+    color: white;
+  }
