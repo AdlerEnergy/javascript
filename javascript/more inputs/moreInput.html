@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>More Inputs!</title>
+    </head>
+    <link rel="stylesheet" href="moreInput.css">
+    <body>
+        <h1>Create Your Profile</h1>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" value="John">
+        <br>
+
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" value="Smith">
+        <br>
+        <br>
+
+        <p>Choose your favorite Programming Language</p>
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+
+        <input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+
+        <input type="radio" id="java" name="fav_lang" value="JavaScript">
+        <label for="java">JavaScript</label>
+        <br>
+        <br>
+
+        <p>Choose your after high school plans:</p>
+        <input type="checkbox" id="checkbox_idk" value="none">
+        <label for="checkbox_idk">I haven't decided. </label>
+        <br>
+
+        <input type="checkbox" id="checkbox_voc" value="none">
+        <label for="checkbox_voc">Vocational School </label>
+        <br>
+
+        <input type="checkbox" id="checkbox_col" value="none">
+        <label for="checkbox_col">College </label>
+        <br>
+
+        <input type="checkbox" id="checkbox_mil" value="none">
+        <label for="checkbox_mil">Military </label>
+        <br>
+        <br>
+
+        <label for="my_slider">Enter your age: </label>
+        <br>
+        <input type="range" id="my_slider" min="0" max="100" step="1" value="50">
+        <p id="text_age">Age = 50</p>
+
+        <button id="submit">Submit</button>
+    </body>
+    <script src="moreInput.js"> </script>
+</html>
