@@ -1,0 +1,53 @@
+body {
+    text-align: center; /* Center the content horizontally */
+    width: 600px;
+}
+
+#icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the icons horizontally */
+}
+
+.div-container {
+    display: flex;
+    justify-content: center; /* Center the icons within the container */
+    margin: 20px 0; /* Add some margin between containers */
+}
+
+.div-icon {
+    width:30%; /* Allow icons to grow and take available space, with a maximum width of 200px */
+    text-align: center; /* Center the text within the icon */
+    margin: 10px; /* Add some margin around each icon */
+    border: 2px solid #333;
+    background-color: #f0f0f0; /* Add a background color to visually distinguish the button */
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    border-radius: 10px; /* Add rounded corners for a modern look */
+}
+
+.div-icon img {
+    width: 100%; /* Make the width of the image fill the container */
+    height: 75%; /* Make the height of the image fill the container */
+    object-fit: cover;
+}
+
+#header{
+    text-align:initial;
+    margin-left: 15px;
+}
+
+.div-icon:hover {
+    background-color: #ccc; /* Darker background color on hover */
+}
+
+#invis{
+    opacity: 0;
+    cursor: auto;
+}
+
+#bio{
+    border: 2px solid #4CAF50; /* Cool border color, you can change this color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+
+}
