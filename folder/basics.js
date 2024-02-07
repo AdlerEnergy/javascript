@@ -81,12 +81,29 @@ class Circle
 
 //create a rectangle with the given info
 rect1 = new Rectangle(50, 50, 100, 100, "white");
-rect2 = new Rectangle(200, 200, 50, 10, "red");
+rect2 = new Rectangle(500, 200, 50, 10, "red");
 ast1 = new Asteroid(600, 100, 50, 20, 5);
+rect3 = new Rectangle(100, 500, 50, 78, "green");
+rect4 = new Rectangle(300, 200, 50, 10, "violet");
+rect5 = new Rectangle(500, 250, 50, 10, "grey");
 
 circle1 = new Circle(WIDTH/2, HEIGHT/2, 50, "green");
+circle2 = new Circle(45, 23, 50, "yellow");
+circle3 = new Circle(245, 199,50, "blue");
+circle4 = new Circle(255, 489, 50, "red");
+circle5 = new Circle(123, 321, 50, "white");
+
+
 
 rect1.draw(ctx);
 rect2.draw(ctx);
+rect3.draw(ctx);
+rect4.draw(ctx);
+rect5.draw(ctx);
+
 ast1.draw(ctx);
 circle1.draw(ctx);
+circle2.draw(ctx);
+circle3.draw(ctx);
+circle4.draw(ctx);
+circle5.draw(ctx);
