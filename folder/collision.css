@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden; /*No scroll bars*/
+}
+
+#canvas{
+    background-color: rgb(242, 242, 145);
+}
+
+div{
+    visibility: hidden;
+}
